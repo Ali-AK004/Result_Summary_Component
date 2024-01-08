@@ -29,7 +29,7 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   body {
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
   background-color: var(--clr-White);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   .container {
     flex-direction: row;
     max-width: 700px;
@@ -61,11 +61,11 @@ body {
   );
   text-align: center;
   border-radius: 0 0 20px 20px;
-  padding: 15px 3rem 10px;
+  padding: 0 3rem 10px;
   flex: 1;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   .result {
     border-radius: 20px;
     display: flex;
@@ -81,7 +81,7 @@ body {
   color: hsla(221, 100%, 96%, 75%);
   font-size: var(--fs);
   font-weight: var(--fw-bold);
-  margin: 10px auto 30px;
+  margin: 15px auto 30px;
 }
 
 .result .center {
@@ -101,7 +101,7 @@ body {
   height: 140px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   .result .center {
     width: 160px;
     height: 160px;
@@ -136,7 +136,7 @@ body {
   padding: 20px 3rem 14px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   .summary {
     padding: 30px 3rem;
   }
@@ -232,7 +232,7 @@ body {
   );
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width > 600px) {
   .btn {
     margin-top: 30px;
   }
